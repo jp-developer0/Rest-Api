@@ -6,3 +6,10 @@ mongoose.connect(URI)
     .catch(err => console.error(err));
 
 module.exports = mongoose;
+
+/*
+module.exports = {
+    mongoose,
+    'secret': 'my_secret_key'
+};
+*/
